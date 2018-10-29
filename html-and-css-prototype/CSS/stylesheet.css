@@ -40,3 +40,86 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.maincontainer {
+	margin: 0 auto;
+	width: 260px;
+	font-size: 12px;
+	color: #777;
+	letter-spacing: 0.02em;
+}
+
+header {
+	background-color: #424242;
+	color: white;
+	padding: 14px;
+	text-align: center;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+
+
+.colorstatus {
+	padding: 0;
+	background: linear-gradient(to right, #EF5F3C 75%, white 25%);
+	height: 12px;
+	width:auto;
+	display: block;
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+}
+
+.donate-box {
+	border: 1px solid #eaeaea;
+	margin-bottom: 14px;
+	padding: 15px 18px;
+}
+input {
+	width: 103px;
+	height: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	border-radius: 4px;
+	border: 1px solid #eaeaea;
+	background-color: #f9f9f9;
+	margin-bottom: 10px;
+}
+
+.amount {
+	font-weight: bold;
+	float: left;
+}
+
+.give {
+	background-color: #1CBC2C;
+	color: white;
+	letter-spacing: 0.03em;
+	float: right;
+}
+
+.why {
+	color: #20A1D4;
+	text-decoration: none;
+	font-style: italic;
+}
+
+button{
+	width: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-color: #eaeaea;
+	border-radius: 3px;
+	color: #777;
+	font-weight: bold;
+	background-color: #f9f9f9;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
