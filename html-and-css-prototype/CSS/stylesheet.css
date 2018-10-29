@@ -55,18 +55,24 @@ header {
 	padding: 14px;
 	text-align: center;
 	border-radius: 3px;
-	margin-bottom: 10px;
 	font-size: 13px;
 }
 
+.arrow {
+	position: relative;
+  left: 220px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #424242;
+	margin-bottom: 4px;
+}
 
 
 .colorstatus {
-	padding: 0;
 	background: linear-gradient(to right, #EF5F3C 75%, white 25%);
 	height: 12px;
-	width:auto;
-	display: block;
 	border-top: 1px solid #eaeaea;
 	border-left: 1px solid #eaeaea;
 	border-right: 1px solid #eaeaea;
@@ -77,6 +83,7 @@ header {
 	margin-bottom: 14px;
 	padding: 15px 18px;
 }
+
 input {
 	width: 103px;
 	height: 45px;
@@ -85,13 +92,13 @@ input {
 	font-size: 15px;
 	border-radius: 4px;
 	border: 1px solid #eaeaea;
-	background-color: #f9f9f9;
 	margin-bottom: 10px;
 }
 
 .amount {
 	font-weight: bold;
 	float: left;
+	color: #777;
 }
 
 .give {
@@ -116,6 +123,7 @@ button{
 	color: #777;
 	font-weight: bold;
 	background-color: #f9f9f9;
+	box-shadow: 0 1px 1px 0 #eaeaea, 0 1px 1px 0 #eaeaea;
 }
 
 footer{
